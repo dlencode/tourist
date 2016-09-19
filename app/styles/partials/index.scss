@@ -1,0 +1,181 @@
+.index--header {
+  //background-color: #144884;
+  background: url('../../images/42767.jpg') center;
+  background-size: cover;
+  padding: 5em 3em 6em;
+  margin: 3em 5em;
+  * {
+    color: white;
+  }
+  p {
+    opacity: .5;
+  }
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+
+.index--button__margintop {
+  margin-top: 3em;
+  display: inline-block;
+}
+
+// Горящие туры
+
+.index--hotsale {
+  margin: 3em 4.5em;
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+.index--hotsale--header {
+  margin-bottom: 2em;
+}
+.index--hotsale--header * {
+  display: inline;
+}
+.index--hotsale--header a {
+  float: right;
+  opacity: .5;
+  @media screen and (max-width: 840px) {
+    display: block;
+    float: none;
+    margin-top: 1em;
+  }
+}
+
+.index--hotsale--content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  @media screen and (max-width: 1038px) {
+    flex-flow: column;
+  }
+}
+
+.index--hotsale--card {
+  //background-color: #144884;
+  background: url('../../images/47035.jpg') center;
+  background-size: cover;
+  padding: 9em 3em 1em;
+  margin: 0.5em;
+  flex: 1 0 25%;
+  * {
+    color: white;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media screen and (max-width: 1038px) {
+    width: 88%;
+  }
+  @media screen and (max-width: 590px) {
+    width: 82%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 72%;
+  }
+}
+
+// Популярные туры (стили те же, возможно унифицировать потом с остальными плитками)
+
+.index--popular {
+  margin: 3em 4.5em;
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+.index--popular--header {
+  margin-bottom: 2em;
+}
+.index--popular--header * {
+  display: inline;
+}
+.index--popular--header a {
+  float: right;
+  opacity: .5;
+  @media screen and (max-width: 840px) {
+    display: block;
+    float: none;
+    margin-top: 1em;
+  }
+}
+
+.index--popular--content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+  @media screen and (max-width: 1038px) {
+    flex-flow: column;
+  }
+}
+
+.index--popular--card {
+  //background-color: #144884;
+  background: url('../../images/15639.jpg') center;
+  background-size: cover;
+  padding: 9em 3em 1em;
+  margin: 0.5em;
+  flex: 1 0 25%;
+  * {
+    color: white;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media screen and (max-width: 1038px) {
+    width: 88%;
+  }
+  @media screen and (max-width: 590px) {
+    width: 82%;
+  }
+  @media screen and (max-width: 450px) {
+    width: 72%;
+  }
+}
+
+// Форма рыссылки
+
+.index--subscribe {
+  background-color: #082859;
+  padding: 2em;
+  * {
+    color: white;
+  }
+}
+
+.index--subscribe--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 850px) {
+    flex-flow: column;
+  }
+}
+
+.index--subscribe--form {
+  margin-left: 3em;
+  input[type="submit"] {
+    cursor:pointer;
+  }
+  input[type="email"] {
+    padding: 0.5em 2em;
+    width: 15em;
+    color: #082859;
+    margin-right: 1em;
+    @media screen and (max-width: 552px) {
+      margin-bottom: 1em;
+    }
+    @media screen and (max-width: 380px) {
+      width: 12em;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    margin-left: 0;
+  }
+  @media screen and (max-width: 552px) {
+    text-align: center;
+  }
+}

@@ -1,0 +1,119 @@
+.about--header {
+  //background-color: #144884;
+  background: url('../../images/17722.jpg') center;
+  background-size: cover;
+  padding: 14em 3em;
+  margin: 3em 5em;
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+
+.about--description {
+  max-width: 1200px;
+  margin: 5em auto;
+  line-height: 2.2;
+  text-align: justify;
+  @media screen and (max-width: 1355px) {
+    padding: 0 5em;
+  }
+  @media screen and (max-width: 590px) {
+    padding: 0 1em;
+  }
+}
+
+// Фото
+
+.about--photo {
+  margin: 3em 4.5em;
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+
+.about--photo--content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.about--photo--card {
+  //background-color: #144884;
+  background: url('../../images/47035.jpg') center;
+  background-size: cover;
+  padding: 9em 3em 1em;
+  margin: 0.5em;
+  flex: 1 1 7%;
+  * {
+    color: white;
+  }
+  p {
+    font-weight: 300;
+  }
+}
+
+.about--fullinfo {
+  max-width: 1200px;
+  margin: 0 auto 4em;
+  line-height: 2;
+  text-align: justify;
+  h3 {
+    margin-bottom: 2em;
+  }
+  .about--certificates--button {
+    text-align: center;
+  }
+  @media screen and (max-width: 1355px) {
+    padding: 0 5em;
+  }
+  @media screen and (max-width: 590px) {
+    padding: 0 1em;
+  }
+}
+
+.about--fullinfo--program {
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  margin: 3em 0;
+  @media screen and (max-width: 880px) {
+    flex-flow: column;
+  }
+}
+.about--fullinfo--leftside__small {
+  flex: 0 0 25%;
+  background: url('../../images/15639.jpg') center;
+  background-size: cover;
+  margin: 0 2em 0 0;
+  @media screen and (max-width: 1180px) {
+    flex: 0 0 35%;
+  }
+  @media screen and (max-width: 880px) {
+    flex: 0 0 45%;
+  }
+}
+
+.about--fullinfo--rightside__big {
+  flex: 0 0 68%;
+  @media screen and (max-width: 1180px) {
+    flex: 0 0 58%;
+  }
+  @media screen and (max-width: 880px) {
+    flex: 0 0 48%;
+  }
+}
+
+.about--fullinfo--leftside__big {
+  flex: 0 0 68%;
+  h3 {
+    text-align: right;
+  }
+}
+
+.about--fullinfo--rightside__small {
+  flex: 0 0 25%;
+  background: url('../../images/42767.jpg') center;
+  background-size: cover;
+  margin: 0 0 0 2em;
+}

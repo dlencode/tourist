@@ -1,0 +1,54 @@
+extends layouts/default
+
+block content
+  main.index--container
+    section.index--header
+      h2 Туры по Ставропольскому краю, России и всему миру!
+      p Путешествуйте по всему миру вместе с нами
+      a(href='/').button--inverted.index--button__margintop Выбрать тур
+    section.index--hotsale
+      .index--hotsale--header
+        h2 Горящие туры. Успейте приобрести!
+        a(href='/tours.html') Смотреть все горящие туры
+      .index--hotsale--content
+        .index--hotsale--card
+          h3 Экскурсия по Ставрополю
+          p Индивидуальный / Школьникам / Группой
+        .index--hotsale--card
+          h3 Тур по Москве
+          p Индивидуальный / Школьникам / Группой
+        .index--hotsale--card
+          h3 Тур по Санкт-Петербургу
+          p Индивидуальный / Школьникам / Группой
+    section.index--popular
+      .index--popular--header
+        h2 Популярные туры и экскурсии
+        a(href='/tours.html') Смотреть все туры
+      .index--popular--content
+        .index--popular--card
+          h3 Экскурсия по Ставрополю
+          p Индивидуальный / Школьникам / Группой
+        .index--popular--card
+          h3 Тур по Москве
+          p Индивидуальный / Школьникам / Группой
+        .index--popular--card
+          h3 Тур по Санкт-Петербургу
+          p Индивидуальный / Школьникам / Группой
+        .index--popular--card
+          h3 Тур в Прагу
+          p Индивидуальный
+        .index--popular--card
+          h3 Тур в Рим
+          p Индивидуальный
+        .index--popular--card
+          h3 Тур в Берлин
+          p Школьникам / Группой
+        .index--popular--card
+          h3 Тур в Берлин
+          p Школьникам / Группой
+    section.index--subscribe
+      .index--subscribe--content
+        p Подписаться на email рассылку
+        form(action="#" method="post" name="subscribe").index--subscribe--form
+          input(type="email" id="email" name="email" placeholder="Email")
+          input(type="submit" value="Подписаться").button--inverted

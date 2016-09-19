@@ -1,0 +1,109 @@
+.tour--header {
+  //background-color: #144884;
+  background: url('../../images/15639.jpg') center;
+  background-size: cover;
+  padding: 5em 3em 6em;
+  margin: 3em 5em;
+  * {
+    color: white;
+  }
+  p {
+    font-weight: 200;
+  }
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+
+.tour--button__margintop {
+  margin-top: 3em;
+  display: inline-block;
+}
+
+.tour--description {
+  max-width: 1200px;
+  margin: 5em auto;
+  line-height: 2.2;
+  @media screen and (max-width: 1355px) {
+    padding: 0 5em;
+  }
+  @media screen and (max-width: 590px) {
+    padding: 0 1em;
+  }
+}
+
+// Фото
+
+.tour--photo {
+  margin: 3em 4.5em;
+  @media screen and (max-width: 590px) {
+    margin: 3em 1em;
+  }
+}
+.tour--photo--header {
+  margin-bottom: 2em;
+}
+.tour--photo--header * {
+  display: inline;
+}
+.tour--photo--header a {
+  float: right;
+  opacity: .5;
+}
+
+.tour--photo--content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.tour--photo--card {
+  //background-color: #144884;
+  background: url('../../images/47035.jpg') center;
+  background-size: cover;
+  padding: 9em 3em 1em;
+  margin: 0.5em;
+  flex: 1 1 7%;
+  * {
+    color: white;
+  }
+  p {
+    font-weight: 300;
+  }
+}
+
+.tour--fullinfo {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto 4em;
+  line-height: 2;
+  h3 {
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+  h2 {
+    color: #651D1E;
+    margin-bottom: 1.5em;
+    margin-top: 3em;
+  }
+  @media screen and (max-width: 1355px) {
+    padding: 0 5em;
+  }
+  @media screen and (max-width: 590px) {
+    padding: 0 1em;
+  }
+}
+
+.tour--fullinfo--program {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+.tour--fullinfo--leftsize {
+  flex: 0 0 20%;
+}
+
+.tour--fullinfo--rightside {
+  flex: 0 0 80%;
+}

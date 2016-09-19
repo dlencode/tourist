@@ -1,0 +1,14 @@
+{
+  "name": "seon-tourist",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "normalize-css": "^4.2.0",
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

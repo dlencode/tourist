@@ -1,0 +1,111 @@
+.button--original {
+  color: #082859;
+  border: solid 1px #082859;
+  background-color: transparent;
+  padding: 0.7em 1.8em;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  &:after {
+    color: white;
+    opacity: 0;
+    content: '\f072';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    position: absolute;
+  }
+  &:hover {
+    background-color: #082859;
+    color: white;
+    &:after {
+      opacity: 1;
+      transform: translate(8px, -6px);
+    }
+  }
+}
+.button--original__dropdown {
+  color: #082859;
+  border: solid 1px #082859;
+  background-color: transparent;
+  padding: 0.7em 4em 0.7em 1.8em;
+  text-decoration: none;
+  i {
+    position: absolute;
+    margin-left: 2em;
+  }
+}
+.button--inverted {
+  color: white;
+  border: solid 1px white;
+  background-color: transparent;
+  padding: 0.7em 1.8em;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  &:after {
+    color: #082859;
+    opacity: 0;
+    content: '\f072';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    position: absolute;
+  }
+  &:hover {
+    background-color: white;
+    color: #082859;
+    &:after {
+      opacity: 1;
+      transform: translate(8px, -6px);
+    }
+  }
+}
+
+input[type="radio"] {
+  display:none;
+}
+input[type="radio"] + label {
+  font-family: "Open Sans", sans-serif;
+  cursor:pointer;
+}
+input[type="radio"] + label span {
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin: 0 1em 0 0;
+  vertical-align:middle;
+  cursor:pointer;
+  -moz-border-radius:  50%;
+  border-radius:  50%;
+  border: solid 1px #082859;
+}
+
+input[type="radio"] + label span {
+  background-color: white;
+}
+
+input[type="radio"]:checked + label span{
+  background-color: #082859;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+
+.tours--radio__marginleft {
+  margin-left: 3em;
+}
+.button--original.tours--button__floatright {
+  float: right;
+}

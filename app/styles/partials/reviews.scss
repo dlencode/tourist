@@ -1,0 +1,49 @@
+.reviews--container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em 5em 3em;
+  @media screen and (max-width: 1030px) {
+    flex-flow: column;
+  }
+  @media screen and (max-width: 730px) {
+    padding: 1.5em 1em 3em;
+  }
+}
+
+.reviews--container .review {
+  max-width: 650px;
+  list-style: none;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  padding-bottom: 2em;
+  @media screen and (max-width: 430px) {
+    padding-left: 0;
+  }
+}
+
+.reviews--container .reviews--leftside {
+  width: 50%;
+}
+.reviews--container .reviews--rightside {
+  width: 50%;
+}
+
+.reviews--container p {
+  word-wrap: break-word;
+}
+
+.reviews--container cite {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.reviews--container a {
+  float: right;
+  font-size: 1em;
+  opacity: .6;
+  @media screen and (max-width: 470px) {
+    display: block;
+    float: none;
+    margin-top: 1em;
+  }
+}

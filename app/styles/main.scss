@@ -1,0 +1,28 @@
+// bower:scss
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html * {
+  font-family: 'Open Sans', sans-serif;
+  color: #082859;
+}
+
+body {
+  background: #ffffff;
+}
+
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/button';
+@import 'partials/index';
+@import 'partials/tours';
+@import 'partials/tour';
+@import 'partials/gallery';
+@import 'partials/documents';
+@import 'partials/rent';
+@import 'partials/contacts';
+@import 'partials/about';
+@import 'partials/reviews';
+@import 'partials/modal';
